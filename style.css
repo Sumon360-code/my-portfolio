@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.clear::after{
+content: '';
+clear: both;
+display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.Header-section{
+background-image: url(developer-portfolio/top-banner.png);
+background-repeat: no-repeat;
+height: 500px;
+
+}
+.col-md-6{
+width: 40%;
+margin-left: 5%;
+padding-left: 5%;
+margin-top: 20px;
+}
+.col-md-6 h1 {
+    margin-bottom: 14px;
+    line-height: 55px;
+    font-size: 40px;
+}
+span{
+color: #fc8621;
+}
+.col-md-6 h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.col-md-6 p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fc8621, #ff4646);
+    display: inline-block;
+    padding: 3px 4px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.col-md-6 img{
+width: 370px;
+}
+.second-section{
+background-image: url(developer-portfolio/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: 90px;
+}
+.second-section .col-md-6 img{
+width: 450px;
+}
+.second-section .col-md-6 h2 {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.second-section .col-md-6 h3{
+    margin-bottom: 18px;
+}
+.second-section .col-md-6 p{
+    margin-bottom: 10px;
+}
+
+.second-section .col-md-6 a {
+    display: inline-block;
+    padding: 8px 36px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.experience-section{
+margin-top: 100px;
+background-image: url(developer-portfolio/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.for-font{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.experience-section h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.experience-section .col-md-6 {
+    box-shadow: 10px 10px 40px #555;
+    height: 230px;
+    border-radius: 3px;
+    background: #fff;
+    width: 38%;
+    /* margin-top: 50px; */
+    padding: 38px;
+}
+.experience-section .col-md-6 h2{
+    
+}
+.experience-section .col-md-6 p{
+    margin-bottom: 10px;
+}
+.orange-light{
+    color: #fc8621;
+}
+#for-l-border{
+    /* border-left:5px solid #fc8621; */
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg,  #fc8621, #ff4646);
+    border-image-slice: 1;
+}
+#for-r-border{
+    border-left:5px solid ;
+    border-image: linear-gradient(180deg,  #28abb9, #153e90);
+    border-image-slice: 1;
+}
+footer {
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+}
